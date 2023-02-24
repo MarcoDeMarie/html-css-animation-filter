@@ -115,17 +115,34 @@
   width: 400px;
 }
 
-.ex-9-img {
+.ex-9-img:hover {
+  transition: 2s;
   margin: 50px 100px;
-  width: 400px;
+  width: 600px;
+  border-radius: 10%;
 }
-
 /* ESERCIZIO 9 */
 
 
 /* ESERCIZIO 10 */
 .ex-10-icon {
   font-size: 60px;
+}
+
+
+.ex-10-icon:hover {
+  font-size: 60px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+
 }
 /* ESERCIZIO 10 */
 
@@ -134,6 +151,22 @@
 /* ESERCIZIO 11 */
 .ex-11-icon {
   font-size: 60px;
+}
+
+
+.ex-11-icon:hover {
+  animation: spin-back 3s linear;
+}
+@keyframes spin-back {
+  0% {
+      transform: rotate(0);
+  }
+  90% {
+      transform: rotate(315deg);
+  }
+  100% {
+      transform: rotate(0);
+  }
 }
 /* ESERCIZIO 11 */
 
